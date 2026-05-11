@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S al Cubo | Seño • Sensei • Sandra</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e74c3c; /* Rojo Kenpo */
+            --bg: #f0f2f5;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header con efecto cubo */
+        header {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .logo-s3 {
+            font-size: 80px;
+            font-weight: 800;
+            color: var(--primary);
+            position: relative;
+            display: inline-block;
+        }
+
+        .logo-s3 span {
+            color: var(--accent);
+            font-size: 50px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Contenedor de las 3 Dimensiones */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            width: 90%;
+            max-width: 1200px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+            transition: all 0.4s ease;
+            text-align: center;
+            border-top: 5px solid transparent;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-top: 5px solid var(--accent);
+        }
+
+        .card h2 { color: var(--primary); }
+        .icon { font-size: 40px; margin-bottom: 10px; }
+
+        /* Sección Especial Anti-Bullying */
+        .bullying-zone {
+            width: 90%;
+            max-width: 1200px;
+            margin: 50px 0;
+            padding: 40px;
+            background: var(--primary);
+            color: white;
+            border-radius: 30px;
+            text-align: center;
+        }
+
+        .btn-action {
+            background: var(--accent);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .btn-action:hover {
+            letter-spacing: 2px;
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-s3">S<span>3</span></div>
+        <p><strong>Seño + Sensei + Sandra</strong></p>
+        <p>Elevando la Educación Física a la máxima potencia.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="icon">📚</div>
+            <h2>La Seño</h2>
+            <p>Recursos didácticos, gamificación y Scape Rooms para el aula de Primaria.</p>
+            <button class="btn-action">Explorar Materiales</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🥋</div>
+            <h2>La Sensei</h2>
+            <p>Proyecto <strong>"Cinturón Negro contra el Acoso"</strong>. Disciplina y valores.</p>
+            <button class="btn-action">Ver Protocolos</button>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏃‍♀️</div>
+            <h2>Sandra</h2>
+            <p>Conoce mi filosofía de vida, mi pasión por el deporte y mi formación.</p>
+            <button class="btn-action">Sobre Mí</button>
+        </div>
+    </div>
+
+    <div class="bullying-zone">
+        <h2>🛡️ Zona de Respeto: Stop Bullying</h2>
+        <p>Como experta en Kenpo, aplico la filosofía marcial para crear aulas seguras.</p>
+        <div id="quote" style="font-style: italic; margin: 20px; font-size: 1.2rem;">
+            "La mejor defensa es la que no necesita ser ejecutada."
+        </div>
+    </div>
+
+</body>
+</html>
