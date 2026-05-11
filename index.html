@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S al Cubo | Seño • Sensei • Sandra</title>
+<style>
+:root {
+--primary: #2c3e50;
+--accent: #e74c3c;
+--bg: #fdfdfd;
+--card-bg: #ffffff;
+}
+body {
+font-family: 'Lexend', sans-serif;
+margin: 0;
+background: var(--bg);
+color: var(--primary);
+line-height: 1.6;
+}
+header {
+text-align: center;
+padding: 60px 20px;
+background: white;
+border-bottom: 2px solid #eee;
+}
+.logo {
+font-size: 4rem;
+font-weight: 900;
+margin: 0;
+}
+.logo span { color: var(--accent); vertical-align: super; font-size: 2rem; }
+.tagline { font-style: italic; color: #7f8c8d; font-size: 1.2rem; }
+.container {
+
+max-width: 1100px;
+margin: -40px auto 40px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+padding: 20px;
+}
+.card {
+background: var(--card-bg);
+padding: 40px;
+border-radius: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+text-align: center;
+transition: transform 0.3s ease;
+}
+.card:hover { transform: translateY(-10px); }
+.icon { font-size: 50px; margin-bottom: 20px; display: block; }
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 30px;
+background: var(--primary);
+color: white;
+text-decoration: none;
+border-radius: 50px;
+font-weight: bold;
+transition: 0.3s;
+}
+.btn-kenpo { background: var(--accent); }
+.btn:hover { opacity: 0.8; letter-spacing: 1px; }
+.bullying-section {
+background: var(--primary);
+color: white;
+padding: 60px 20px;
+text-align: center;
+border-radius: 50px;
+margin: 20px;
+}
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 15px; border-bottom: 1px solid #eee; text-align: left; }
+th { background: #f9f9f9; }
+
+</style>
+</head>
+<body>
+<header>
+<h1 class="logo">S<span>3</span></h1>
+<p class="tagline">Seño + Sensei + Sandra</p>
+<p>Innovación en Educación Física y Valores Marciales</p>
+</header>
+<div class="container">
+<div class="card">
+<span class="icon">‍♀️</span>
+<h2>La Seño</h2>
+<p>Recursos de Educación Física, Scape Rooms y Gamificación.</p>
+<a href="#" class="btn">Ver Recursos</a>
+</div>
+<div class="card">
+<span class="icon">🥋</span>
+<h2>La Sensei</h2>
+<p>Proyecto "Cinturón Negro contra el Bullying". Disciplina y Respeto.</p>
+<a href="#" class="btn btn-kenpo">Protocolo Anti-Bullying</a>
+</div>
+<div class="card">
+<span class="icon">‍♀️</span>
+<h2>Sandra</h2>
+<p>Sobre mi trayectoria como docente y cinturón negro de Kenpo.</p>
+<a href="#" class="btn">Conóceme</a>
+</div>
+</div>
+<div class="bullying-section">
+<h2>️ Mi Dojo de Convivencia</h2>
+<p>En mi aula, el respeto es la técnica más importante.</p>
+<table style="color: black; background: white; border-radius: 15px; overflow: hidden;
+margin: 0 auto; max-width: 600px;">
+<tr>
+<th>Cinturón</th>
+<th>Valor Marcial Aplicado al Aula</th>
+</tr>
+<tr>
+<td>⚪ Blanco</td>
+<td>Humildad y ganas de aprender</td>
+</tr>
+<tr>
+<td>🟡 Amarillo</td>
+
+<td>Respeto a los compañeros</td>
+</tr>
+<tr>
+<td>⚫ Negro</td>
+<td>Maestría emocional y protección del débil</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
