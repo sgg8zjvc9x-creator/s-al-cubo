@@ -1,0 +1,44 @@
+Crea una página de inicio de sitio web vibrante y moderna para una empresa de tecnología innovadora llamada "S al cubo".
+
+**DISEÑO GENERAL:**
+
+- Estilo: Minimalista, limpio, futurista, con la estética de una web de Apple y con toques de diseño "Neumorphism" sutil.
+- Paleta de Colores: Los de Apple e IOS
+- Diseño Responsivo: Optimizado para escritorio, tablet y móvil.
+
+**SECCIÓN SUPERIOR (HERO SECTION):**
+
+- **Imagen Principal:** Una imagen de alta resolución que ocupe gran parte de la sección. Debe representar una pista de fútbol de un patio de recreo de colegio con diversos alumnos y alumnas haciendo EF y que la docente sea una chica jóven con el pelo con un corte Bob liso y ojos grandes. La imagen debe transmitir innovación y conexión y debe tener estilo Apple.
+- **Título Principal (H1):** "S al cubo: Seño, Sensei, Sandra" (Fuente Sans-Serif audaz, grande, paleta de color de apple).
+- **Subtítulo (H2):** "Opositora a maestra de Educación Física." (Fuente Sans-Serif ligera, paleta de color de Apple).
+- **Botón CTA Principal:** "Acceso a material didáctico" (Rectángulo redondeado, azul brillante, texto blanco, efecto hover sutil).
+
+**SECCIÓN DE CARACTERÍSTICAS/SERVICIOS (THREE-COLUMN LAYOUT):**
+
+- Diseño: Tres tarjetas limpias y atractivas en fila, cada una con un ícono minimalista (estilo línea o glifo), un título corto y una breve descripción.
+    - **Tarjeta 1:** Ícono de Bombilla. Título: "Recursos didácticos". Descripción: "Breakout y actividades para hacer en el aula"
+    - **Tarjeta 2:** Ícono de cinturón negro. Título: "Stop Bullying". Descripción: "Espacio de concienciación e intervención del Bullying"
+    - **Tarjeta 3:** Ícono de una margarita. Título: "Sobre mí". Descripción: "¡Conozcámonos mejor!"
+- Cada tarjeta debe tener un botón "Más Información" (estilo discreto, texto con paleta de colores de Apple).
+
+**SECCIÓN DE LLAMADA A LA ACCIÓN FINAL (FOOTER-LIKE):**
+
+- **Título:** "¿Alguna duda?"
+- **Subtítulo:** "Ponte en contacto conmigo y descubre cómo podemos ayudarnos mutuamente a crecer."
+- **Botón CTA:** "Agenda una Cita" (Rectángulo redondeado, paleta de color de Apple).
+
+**PIE DE PÁGINA (FOOTER):**
+
+- Diseño: Fondo oscuro (paleta de colores de apple).
+- Elementos:
+    - Logotipo de la web (estilo moderno, minimalista).
+    - Enlaces de navegación (Inicio, Soluciones, Nosotros, Contacto, Privacidad).
+    - Íconos de redes sociales (Instagram, WhatApp, Tik Tok) con enlaces.
+    - Texto de derechos de autor: "© 2026 S al cubo. Todos los derechos reservados."
+
+**ELEMENTOS ADICIONALES/ANIMACIONES:**
+
+- Pequeñas animaciones sutiles al hacer scroll (fade-in, slide-up).
+- Efectos hover en botones e íconos.
+- Uso estratégico de espacio en blanco para una sensación de amplitud.
+- Gráficos vectoriales sutiles de fondo (formas geométricas, patrones abstractos) que complementen el diseño futurista.
